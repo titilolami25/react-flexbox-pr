@@ -1,0 +1,108 @@
+.container_flex{
+    width: 500px;
+    height: 500px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.flex_container {
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+   
+}
+
+.grid_container{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: repeat(4, 1fr);
+height: 300px;
+gap: 6px;
+}
+
+.grid_container >h1 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.grid1{
+    background-color:papayawhip ;   
+}
+
+.grid2{background-color:yellow;
+
+}
+
+.grid3{
+   background-color: white; 
+}
+
+.grid4{
+    background-color: purple;
+}
+    
+.grid5{
+    background-color:papayawhip ;   
+}
+
+.grid6{background-color:yellow;
+
+}
+
+.grid7{
+   background-color: white; 
+}
+
+.grid8{
+    background-color: purple;
+}
+    
+.grid9{
+    background-color:papayawhip ;   
+}
+
+.grid10{background-color:yellow;
+
+}
+
+.grid11{
+   background-color: white; 
+}
+
+.grid12{
+    background-color: purple;
+}
+    
+.grid13{background-color: papayawhip;
+
+}
+
+.grid14{
+   background-color: yellow; 
+}
+
+.grid15{
+    background-color: white;
+}
+ 
+.grid16{
+    background-color: purple;   
+
+}
+
+.tab1{
+    background-color:white;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tab2{
+    background-color: yellow;
+    width: fit-content;
+
+}
