@@ -18,7 +18,7 @@ display: grid;
 grid-template-columns: repeat(4, 1fr);
 grid-template-rows: repeat(4, 1fr);
 height: 300px;
-gap: 6px;
+gap: 8px;
 }
 
 .grid_container >h1 {
