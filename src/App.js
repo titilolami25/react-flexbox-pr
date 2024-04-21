@@ -1,10 +1,10 @@
-
-import './App.css';
+import "./App.css";
+import Form from "./form/Form";
 
 function App() {
   return (
     <div className="App">
-      <h2>This is my first react code class</h2>
+      <Form/>
       </div>
   );
 }

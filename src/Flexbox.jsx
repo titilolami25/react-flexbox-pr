@@ -1,5 +1,6 @@
 import React from "react";
 import "./Flexbox.css"
+import MyFunction from "./MyFunction"
 function  Flexbox () {
   return (
     
@@ -9,7 +10,7 @@ function  Flexbox () {
         <h1 className ="tab2">Sharon</h1>
         <h1 className ="tab3">Tobi</h1>
 </div>
-
+<MyFunction/>
     <div className = "grid_container">
       <h1 className ="grid1">Ade</h1>
         <h1 className ="grid2">Sharon</h1>
@@ -34,17 +35,6 @@ function  Flexbox () {
         <h1 className ="grid16">Bimbo</h1>
         
         
-
-
-
-
-
-
-
-
-
-
-
 </div>
 </div>
   );
@@ -52,4 +42,3 @@ function  Flexbox () {
 
 export default Flexbox; 
    
-  

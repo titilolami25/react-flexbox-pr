@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 10vh;
+    background-color: #333333;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+
+.innercontainer{
+    width: 350px;
+    height: 10vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    
+}
+
+.navbaritems{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap: 4px;
+    
+
+}
+.navbutton{
+    width:fit-content;
+    padding:4px 4px;
+    border-radius: 10px;
+    background-color: orange;
+}
+
+
+
