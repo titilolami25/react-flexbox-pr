@@ -1,7 +1,6 @@
 import React from 'react';
-import './App.css';
-
-function App() {
+import './table.css';
+function Table() {
   const CustomTable = () => {
     const data = [
       { name: 'Bunmi Adedeji', age: 35, state: 'Oyo' },
@@ -48,4 +47,4 @@ function App() {
   );
 }
 
-export default App;
+export default Table;
