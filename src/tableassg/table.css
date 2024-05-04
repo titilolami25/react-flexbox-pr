@@ -1,0 +1,28 @@
+.table -container {
+    overflow-x: auto;
+}
+.custom-table {
+    width: 90%;
+    border-collapse: collapse;
+    
+  }
+  
+  .custom-table th,
+  .custom-table td {
+    border: 2px solid pink;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .custom-table th {
+    background-color: orange;
+  }
+
+  /* Media query for mobile devices */
+@media (max-width: 768px) {
+    .custom-table th,
+    .custom-table td {
+      font-size: 12px; /*Reduce font size for smaller screens */
+      padding: 6px; /*Reduce padding for smaller screens */
+    }
+  }
